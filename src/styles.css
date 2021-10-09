@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+.pic h1{
+	font-size: 50px;
+	font-family: Candara;
+	margin-left: 10px
+}
+.pic img{
+	float: right;
+	width: 250px;
+	height: 250px;
+	margin-right: 20px;
+}
+.portfolio h1{
+	font-family: Helvetica;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-size: 50px;
+	height: 40px
+}
+.gallery td {
+		padding: 2px;
+		transition: transform .2s;
+}
+.gallery td:hover {
+		transform: scale(1.5);
+}
